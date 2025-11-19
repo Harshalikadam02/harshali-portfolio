@@ -117,14 +117,14 @@ export const HeroSection = () => {
                     {/* PDF Viewer */}
                     <div className="w-full border rounded-lg overflow-hidden bg-muted">
                       <iframe
-                        src="/Harshali_Kadam_SWE_Resume.pdf"
+                        src="/Harshali-Kadam_SWE_Resume.pdf"
                         className="w-full h-[600px] md:h-[700px]"
                         title="Resume Preview"
                       />
                     </div>
                     {/* Download Button */}
                     <div className="flex justify-center">
-                      <a href="/Harshali_Kadam_SWE_Resume.pdf" download="Harshali_Kadam_SWE_Resume.pdf">
+                      <a href="/Harshali-Kadam_SWE_Resume.pdf" download="Harshali-Kadam_SWE_Resume.pdf">
                         <Button className="w-full sm:w-auto">
                           <Download className="mr-2 h-5 w-5" />
                           Download Resume
