@@ -117,7 +117,7 @@ export const HeroSection = () => {
                     {/* PDF Viewer */}
                     <div className="w-full border rounded-lg overflow-hidden bg-muted">
                       <iframe
-                        src="https://drive.google.com/file/d/1OBXH60lNtu-LkF-CdTIXKv8ccJO0Or_l/preview"
+                        src="/Harshali_Resume_JPMC.pdf"
                         className="w-full h-[600px] md:h-[700px]"
                         title="Resume Preview"
                         allow="autoplay"
@@ -125,7 +125,7 @@ export const HeroSection = () => {
                     </div>
                     {/* Download Button */}
                     <div className="flex justify-center">
-                      <a href="https://drive.google.com/file/d/1OBXH60lNtu-LkF-CdTIXKv8ccJO0Or_l/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                      <a href="/Harshali_Resume_JPMC.pdf" target="_blank" rel="noopener noreferrer" download>
                         <Button className="w-full sm:w-auto">
                           <Download className="mr-2 h-5 w-5" />
                           View & Download Resume
