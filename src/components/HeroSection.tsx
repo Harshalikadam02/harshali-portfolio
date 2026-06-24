@@ -103,7 +103,7 @@ export const HeroSection = () => {
                     className="group border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300"
                   >
                     <FileText className="mr-2 h-5 w-5" />
-                    Hire Me
+                    Resume
                   </Button>
                 </DialogTrigger>
                 <DialogContent className="max-w-4xl w-full p-0 bg-background">
@@ -117,7 +117,7 @@ export const HeroSection = () => {
                     {/* PDF Viewer */}
                     <div className="w-full border rounded-lg overflow-hidden bg-muted">
                       <iframe
-                        src="/Harshali_Resume_JPMC.pdf"
+                        src="/Harshali_Resume_Updated.pdf"
                         className="w-full h-[600px] md:h-[700px]"
                         title="Resume Preview"
                         allow="autoplay"
@@ -125,7 +125,7 @@ export const HeroSection = () => {
                     </div>
                     {/* Download Button */}
                     <div className="flex justify-center">
-                      <a href="/Harshali_Resume_JPMC.pdf" target="_blank" rel="noopener noreferrer" download>
+                      <a href="/Harshali_Resume_Updated.pdf" target="_blank" rel="noopener noreferrer" download>
                         <Button className="w-full sm:w-auto">
                           <Download className="mr-2 h-5 w-5" />
                           View & Download Resume
